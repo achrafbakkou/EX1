@@ -1,0 +1,61 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color:bisque
+}
+.cv{
+	display: grid;
+	grid-template-rows: 1fr auto;
+	grid-template-areas: 'top top''bottom bottom';
+	grid-template-columns: 1fr 1fr;
+	gap:10px;
+}
+.top{
+	grid-area: top;
+	display:flex;
+	justify-content: center;
+	margin-top: 3%;
+}
+.pic{
+	display:flex;
+}
+.bottom{
+	grid-area: bottom;
+	display:flex;
+	justify-content:space-evenly;
+	height: 100%;
+}
+.definition{ 
+	width: 40vw;
+	height: 50vh;
+	margin:5px;
+}
+.career{
+	width:40vw;
+	height:50vh;
+	margin: 5px;
+}
+#school, #year{
+	font-weight: bold;
+}
+.info{
+	background-color: #EEC759;
+	padding: 10px;
+	margin: 100px;
+}
+#school, #year{
+	font-weight:bold;
+	margin: 30px;
+}
+#year{
+	margin-left:2px;
+}
+.path{
+	margin-top: 50px;
+}
+.name{
+	display:flex;
+	justify-content:space-between;
+}
